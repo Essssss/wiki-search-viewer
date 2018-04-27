@@ -1,0 +1,98 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+html{
+  background: url(https://images.pexels.com/photos/414727/pexels-photo-414727.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+
+header{
+  text-align: center;
+  font-size: 300%;
+  font-family: Berkshire Swash;
+  color: white;
+  margin-top: 3%;
+  text-shadow: 1px 1px 10px black, 1px 1px 10px black;
+}
+h1{
+  margin-top: 4%;
+  font-size: 130%;
+  text-align: center;
+  font-family:cursive;
+  color:white;
+  text-shadow: 1px 1px 10px black, 1px 1px 10px black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+h1:hover{
+
+  transform: translateY(3px);
+}
+#btn{
+  background-color: white;
+  outline:none;
+  border: none;
+  border-radius: 2%;
+  padding: 3%;
+  font-family:cursive;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+
+}
+#btn:hover{
+  background-color: #cce7ff;
+  transform: translateY(4px);
+  box-shadow: 10px 10px 50px 10px black;
+}
+
+.inputbox{
+  text-align:center;
+  margin:10% 5% 3% 5%;
+}
+#inputt{
+  border:none;
+  font-size:150%;
+  padding:0.5%;
+  margin:0px;
+  color: white;
+  background-color: black;
+  box-shadow: 1px 1px 1px 1px black,1px 1px 1px 1px black;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "result1";
+  margin: 3% 15% 3% 15%;
+
+}
+.result1{
+  margin-bottom:0.6%;
+  padding: 1%;
+  background-color: #cce7ff;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 150%;
+  color:black;
+}
+.result1:hover{
+  opacity:0.9;
+}
+.signbox{
+  margin-top:20%;
+  bottom:0px;
+}
+.sign{
+  font-family: VT323;
+  text-align: center;
+  text-shadow: 1px 1px 5px #fff;
+}
